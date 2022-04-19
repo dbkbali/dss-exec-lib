@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -e
-
-[[ "$ETH_RPC_URL" && "$(seth chain)" == "ethlive"  ]] || { echo "Please set a mainnet ETH_RPC_URL"; exit 1;  }
+ETH_RPC_URL=https://eth-goerli.alchemyapi.io/v2/0qqYAolORHk4IV-BxS2MjiT0OJmcV_8z
+SETH_CHAIN=goerli
+# [[ "$ETH_RPC_URL" && "$(seth chain)" == "ethlive"  ]] || { echo "Please set a mainnet ETH_RPC_URL"; exit 1;  }
 
 # shellcheck disable=SC1091
 source "./allow-optimize.sh"

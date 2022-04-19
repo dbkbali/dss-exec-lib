@@ -37,7 +37,7 @@ interface SpellAction {
 
 contract DssExec {
 
-    Changelog      constant public log   = Changelog(0xdA0Ab1e0017DEbCd72Be8599041a2aa3bA7e740F);
+    Changelog      constant public log   = Changelog(0x62f00ded84C4Bd69c4172Ef524f7Ee97C7d37624);
     uint256                 public eta;
     bytes                   public sig;
     bool                    public done;

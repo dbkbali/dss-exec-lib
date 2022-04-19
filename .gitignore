@@ -1,2 +1,5 @@
 /out
 /hevm.libs.*
+.sethrc
+password
+.vscode

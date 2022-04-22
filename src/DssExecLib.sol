@@ -136,7 +136,7 @@ library DssExecLib {
     /*****************/
     /*** Constants ***/
     /*****************/
-    address constant public LOG = 0x62f00ded84C4Bd69c4172Ef524f7Ee97C7d37624;
+    address constant public LOG = 0x672f51B1040898dd3b24c7075112241213faD588;
 
     uint256 constant internal WAD      = 10 ** 18;
     uint256 constant internal RAY      = 10 ** 27;
